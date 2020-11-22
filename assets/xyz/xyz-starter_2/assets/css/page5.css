@@ -1,0 +1,118 @@
+
+body {
+  background-color: black;
+  color: white;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+.title {
+  font-family: 'Overpass', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 70px;
+  color: #55FF00;
+}
+
+.letter {
+  font-family: 'Overpass', sans-serif;
+  font-size: 850px;
+  text-align: center;
+  color: #55FF00;
+  position: relative;
+}
+  
+
+
+.marquee1 {
+  font-family: 'Overpass', sans-serif;
+  font-size: 70px;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+.marquee1 div {
+  display: block;
+  width: 200%;
+  height: 70px;
+  position: absolute;
+  overflow: hidden;
+  animation: marquee 12s linear infinite;
+}
+.marquee1 span {
+  float: left;
+  width: 50%;
+}
+
+
+
+.marquee2 {
+  font-family: 'Overpass', sans-serif;
+  font-size: 70px;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.marquee2 div {
+  display: block;
+  width: 200%;
+  height: 70px;
+  position: absolute;
+  overflow: hidden;
+  animation: marquee 10s linear infinite;
+}
+.marquee2 span {
+  float: left;
+  width: 50%;
+}
+
+
+
+.marquee3 {
+  font-family: 'Overpass', sans-serif;
+  font-size: 50px;
+  height: 70px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.marquee3 div {
+  display: block;
+  width: 200%;
+  height: 50px;
+  position: absolute;
+  overflow: hidden;
+  animation: marquee 14s linear infinite;
+}
+.marquee3 span {
+  float: left;
+  width: 50%;
+}
+
+
+
+.marquee4 {
+  font-family: 'Overpass', sans-serif;
+  font-size: 50px;
+  height: 70px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.marquee4 div {
+  display: block;
+  width: 200%;
+  height: 50px;
+  position: absolute;
+  overflow: hidden;
+  animation: marquee 10s linear infinite;
+}
+.marquee4 span {
+  float: left;
+  width: 50%;
+}

@@ -1,0 +1,15 @@
+body {
+	font-family: cooper black,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+	color:yellow;
+	background-color: lime;
+}
+
+.date {
+	font-size:120px;
+	text-align: left;
+	background-color: blue;
+	font-family: courier;
+	
+}

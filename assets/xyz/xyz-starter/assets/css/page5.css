@@ -1,0 +1,22 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+	background-color: #FF80BF;
+	color: white;
+}
+.uni{
+	position: left;
+	bottom: 10px;
+	right: 10px;
+	background-color: pink;
+}
+
+a {
+	color:white;
+}
+
+
+span {
+	color:white;
+}

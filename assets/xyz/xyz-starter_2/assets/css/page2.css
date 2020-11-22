@@ -1,0 +1,106 @@
+body {
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 150px;
+	text-align: center;
+	padding-top: 10%;
+	animation: rainbow 8s infinite alternate;
+	background-color: #FFF2E6;
+}
+
+
+@keyframes rainbow {
+	0% {
+		color: #FF3333;
+	}
+	14.28% {
+		color: #FF9933;
+	}
+	28.56% {
+		color: #FFFF33;
+	}
+	42.84% {
+		color: #77FF33;
+	}
+	57.12% {
+		color: #33FFFF;
+	}
+	71.4% {
+		color: #3333FF;
+	}
+	85.68% {
+		color: #DD33FF;
+	}
+	100% {
+		color: #FF3399;
+	}
+}
+
+.uni{
+	font-family: Helvetica,sans-serif;
+	text-align: left;
+	color: #FFBF80;
+	font-size: 30px;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+.ope{
+	font-family: Helvetica,sans-serif;
+	text-align: center;
+	color: #FFBF80;
+	font-size: 30px;
+	position: fixed;
+	top: 20px;
+	left:100px;
+	right: 100px;
+}
+.date {
+	font-family: Helvetica,sans-serif;
+	text-align: right;
+	color: #FFBF80;
+	font-size: 30px;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+.name {
+	font-family: Helvetica,sans-serif;
+	text-align: left;
+	color: #FFBF80;
+	font-size: 30px;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+
+}
+.id {
+	font-family: Helvetica,sans-serif;
+	text-align: left;
+	color: #FFBF80;
+	font-size: 30px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+.reload {
+	font-family: Helvetica,sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color: inherit;
+	font-size: 15px;
+	position: fixed;
+	bottom: 160px;
+	left:100px;
+	right: 100px;
+}
+
+a:link {
+	color: #FFBF80;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFCCB3;
+}
+a:active {
+	color: #FF8080;
+}
