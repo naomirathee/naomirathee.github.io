@@ -40,8 +40,7 @@ body {
   margin-left: 5px;
   margin-bottom: 5px;
 }
-.contents {
-  cursor: pointer;
+
 }
 .plus {
   color: #D4FF00; 
@@ -57,11 +56,11 @@ a:link {
 }
 a:visited { 
   text-decoration: none; 
-  color:white; 
+  color: white; 
 }
 a:hover { 
   text-decoration: none; 
-  color:white; 
+  color: white; 
 }
 a:hover, a:active { 
   text-decoration: none; 
