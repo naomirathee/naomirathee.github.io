@@ -4,6 +4,15 @@ body {
   font-size: 2vh; 
   color: white;
 }
+/*Scroll to top*/
+.top {
+  font-weight: bold;
+  bottom: 20px;
+  left: 20px;
+  display:block;
+  position:fixed;
+}
+/*Scroll to top*/
 /*Rectangles*/
 .container {
   display: table;
