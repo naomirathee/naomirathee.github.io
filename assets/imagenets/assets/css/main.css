@@ -50,8 +50,8 @@ body {
 .vitd:hover, .vitd:focus, .vitd:active {
   -webkit-animation-name: pulse-grow-on-hover;
   animation-name: pulse-grow-on-hover;
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
+  -webkit-animation-duration: .7s;
+  animation-duration: .7s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
