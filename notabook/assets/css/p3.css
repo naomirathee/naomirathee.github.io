@@ -103,6 +103,7 @@ a:hover, a:active {
 }
 
 img {
-  margin-right: 5px;
+  width: 50vh;
+  height: auto;
 }
 /*Right*/

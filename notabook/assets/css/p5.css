@@ -101,4 +101,10 @@ a:hover, a:active {
   margin-right: 5px;
   margin-bottom: 15px;
 }
+
+
+img {
+  width: 50vh;
+  height: auto;
+}
 /*Right*/
