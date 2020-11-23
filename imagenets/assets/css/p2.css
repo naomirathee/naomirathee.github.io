@@ -89,4 +89,14 @@ img:hover {
   columns: 3;
   column-width: 50vh;
 }
+.bn {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5vh;
+  margin-bottom: 40px;
+  position: flex;
+  word-spacing: 5vh;
+}
 /*GRID*/
