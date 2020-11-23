@@ -48,7 +48,7 @@ body {
 /*Navigation*/
 .about, .what, .where, .causes, .symptoms, .treatment, .risks, .lit  {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 2.5vh;
   margin-top: 140px;
   padding-left: 40px;
   display: inline-block;
@@ -56,7 +56,7 @@ body {
 }
 
 a:link {
-  text-decoration: none;
+  text-decoration: none; color: #5500FF;
 }
 a:visited { 
   text-decoration: none; color:#5500FF; 
@@ -84,12 +84,20 @@ img:hover {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 40px;
-  margin-bottom: 40px;
   flex-wrap: wrap;
   font-size: 1.5vh;
   text-align: left;
   columns: 3;
   column-width: 50vh;
 }
+.bn {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5vh;
+  margin-bottom: 40px;
+  position: flex;
+  word-spacing: 5vh;
+}
 /*GRID*/
-
