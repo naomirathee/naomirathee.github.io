@@ -67,7 +67,7 @@ body {
 @media (max-width: 500px) {
   body {
   background-color: #5500FF;
-  height: 100vh;
+  
   display: flex;
   justify-content: center;
   }
