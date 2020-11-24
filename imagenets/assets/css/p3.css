@@ -1,8 +1,3 @@
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
-
 body {
   background-color: white;
   font-family: helvetica;
@@ -13,16 +8,14 @@ body {
 /*Title*/
 .vitd {
   font-weight: bold;
-  font-size: 60px;
   padding: 40px;
   position: fixed;
   display: inline-block;
-  cursor: pointer;
 }
 .vitd {
   font-family: helvetica;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 6vh;
   position: absolute;
   background: linear-gradient(to right, #FF00D4 0%, #FF002B 14.28%, #FF6619 28.56%, #FFD500 42.85%, #80FF00 57.14%, #00FFFF 71.42%, #8000FF 85.71%, #FF00D4 100%) 0% center / 200% auto;
   background-clip: text;
@@ -48,12 +41,6 @@ body {
     transform: scale(1.1);
   }
 }
-.rectangle {
-  margin-top: 40px;
-  height: 10vh;
-  width: 100%;
-  background-color: #FFD500;
-}
 /*Title*/
 
 /*Navigation*/
@@ -61,13 +48,12 @@ body {
   font-weight: bold;
   font-size: 2.5vh;
   margin-top: 140px;
-  padding-left: 40px;
+  margin-left: 40px;
   display: inline-block;
   cursor: pointer;
 }
-
 a:link {
-  text-decoration: none; color: #5500FF;
+  text-decoration: none;
 }
 a:visited { 
   text-decoration: none; color:#5500FF; 
@@ -78,9 +64,13 @@ a:hover {
 a:hover, a:active { 
   text-decoration: none; color:#FFD500; 
 }
+.rectangle {
+  margin-top: 40px;
+  height: 5vh;
+  width: 100%;
+  background-color: #5500FF;
+  }
 /*Navigation*/
-
-
 
 /*GRID*/
 img {
