@@ -102,6 +102,10 @@ a:hover, a:active {
 .copy {
   font-weight: lighter;
 }
+.disclaimer {
+  font-weight: lighter;
+  font-style: italic;
+}
 img {
   margin-left: 40px;
   margin-right: 40px;
@@ -111,7 +115,6 @@ img {
   height: auto;
   filter: grayscale(100%);
 }
-
 img:hover {
   filter: none;
 }
@@ -139,3 +142,154 @@ img:hover {
   word-spacing: 5vh;
 }
 /*GRID*/
+
+
+/*MOBILE*/
+@media (max-width: 500px) {
+  body {
+  background-color: white;
+  font-family: helvetica;
+}
+
+/*Menu*/
+.mobile-container {
+  display: block;
+  color: white;
+  max-width: 100%;
+  margin: auto;
+  background-color: #5500FF;
+  height: 25px;
+  border-radius: 10px;
+}
+.active {
+  margin-top: 5px;
+  font-weight: bold;
+  color: white;
+  font-size: 3vh;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #5500FF;
+  position: relative;
+}
+.topnav #myLinks {
+  display: none;
+  color: white;
+}
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a.icon {
+  background: #5500FF;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav a:hover {
+  background-color: #5500FF;
+  color: white;
+}
+.active {
+  background-color: #5500FF;
+  color: white;
+}
+/*Menu*/
+
+/*Title*/
+.vitd {
+  display: none;
+  font-weight: bold;
+  position: fixed;
+  margin-top: 2px;
+  margin-left: 2px;
+  text-align: left;
+}
+.vitd {
+  display: none;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 3vh;
+  background: linear-gradient(to right, #FF00D4 0%, #FF002B 14.28%, #FF6619 28.56%, #FFD500 42.85%, #80FF00 57.14%, #00FFFF 71.42%, #8000FF 85.71%, #FF00D4 100%) 0% center / 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 4s linear infinite;
+}
+@keyframes rainbow {
+  to { background-position-x: 200%; }
+}
+/*Title*/
+
+/*Navigation*/
+.about, .what, .where, .causes, .symptoms, .treatment, .risks, .lit, .rationale  {
+  display: none;
+}
+
+.rectangle {
+  display: none;
+  margin-top: 20px;
+  height: 1.5vh;
+  width: 100%;
+  background-color: #5500FF;
+  }
+/*Navigation*/
+
+/*About*/
+.description {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #5500FF;
+}
+.title  {
+  font-weight: bold;
+  font-size: 1.5vh;
+  margin-bottom: 20px;
+}
+.name {
+  font-weight: bold;
+  font-size: 1.5vh;
+  margin-bottom: 20px;
+}
+.columns {
+  columns: 1;
+  font-size: 1.5vh;
+}
+.copy {
+  font-weight: lighter;
+}
+.disclaimer {
+  font-weight: lighter;
+  font-style: italic;
+}
+img {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 92.4%;
+  height: auto;
+  filter: grayscale(100%);
+}
+img:hover {
+  filter: none;
+}
+/*About*/
+
+}
+.bn {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5vh;
+}
+}
+/*MOBILE*/
