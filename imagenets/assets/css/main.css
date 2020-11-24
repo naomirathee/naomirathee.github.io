@@ -72,7 +72,7 @@ body {
 .vitd {
   font-family: helvetica;
   font-weight: bold;
-  font-size: 6vh;
+  font-size: 7vh;
   text-align: center;
   background: linear-gradient(to right, #FF00D4 0%, #FF002B 14.28%, #FF6619 28.56%, #FFD500 42.85%, #80FF00 57.14%, #00FFFF 71.42%, #8000FF 85.71%, #FF00D4 100%) 0% center / 200% auto;
   background-clip: text;
@@ -84,7 +84,7 @@ body {
 .def {
   font-family: helvetica;
   font-weight: bold;
-  font-size: 6vh;
+  font-size: 7vh;
   color: #6A4DFF;
   text-align: center;
 }
