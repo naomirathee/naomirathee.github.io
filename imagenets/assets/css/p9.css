@@ -44,7 +44,7 @@ body {
 /*Title*/
 
 /*Navigation*/
-.about, .what, .where, .causes, .symptoms, .treatment, .risks, .lit  {
+.about, .what, .where, .causes, .symptoms, .treatment, .risks, .lit, .rationale  {
   font-weight: bold;
   font-size: 2.5vh;
   margin-top: 140px;
@@ -70,27 +70,9 @@ a:hover, a:active {
   width: 100%;
   background-color: #5500FF;
   }
-/*Navigation*/
+  /*Navigation*/
 
 /*GRID*/
-img {
-  width: 60vh;
-  height: auto;
-  filter: grayscale(100%);
-}
-img:hover {
-  filter: none;
-}
-.images {
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 40px;
-  flex-wrap: wrap;
-  font-size: 1.5vh;
-  text-align: left;
-  columns: 3;
-  column-width: 50vh;
-}
 .bn {
   margin-left: 40px;
   margin-right: 40px;
@@ -106,14 +88,14 @@ img:hover {
 /*Literature*/
 .aparna, .bener, .ding, .fullard, .garland, .gezmish, .jat, .masoudi, .mcdonnell, .moeness, .mohr, .oke, .pletz {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 2.5vh;
   padding-top: 40px;
   padding-left: 40px;
   padding-bottom: 20px;
 }
 .aparnalit, .benerlit, .dinglit, .fullardlit, .garlandlit, .gezmishlit, .jatlit, .masoudilit, .mcdonnelllit, .moenesslit, .mohrlit, .okelit, .pletzlit {
-  font-weight: light;
-  font-size: 15px;
+  font-weight: lighter;
+  font-size: 2.5vh;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 20px;

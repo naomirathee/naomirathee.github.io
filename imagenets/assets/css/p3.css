@@ -44,7 +44,7 @@ body {
 /*Title*/
 
 /*Navigation*/
-.about, .what, .where, .causes, .symptoms, .treatment, .risks, .lit  {
+.about, .what, .where, .causes, .symptoms, .treatment, .risks, .lit, .rationale  {
   font-weight: bold;
   font-size: 2.5vh;
   margin-top: 140px;
@@ -70,7 +70,7 @@ a:hover, a:active {
   width: 100%;
   background-color: #5500FF;
   }
-/*Navigation*/
+  /*Navigation*/
 
 /*GRID*/
 img {

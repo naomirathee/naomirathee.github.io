@@ -2,21 +2,20 @@ body {
   background-color: white;
   font-family: helvetica;
   color: #5500FF;
+  font-size: 3vh;
 }
 
 /*Title*/
 .vitd {
   font-weight: bold;
-  font-size: 60px;
   padding: 40px;
   position: fixed;
   display: inline-block;
-  cursor: pointer;
 }
 .vitd {
   font-family: helvetica;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 6vh;
   position: absolute;
   background: linear-gradient(to right, #FF00D4 0%, #FF002B 14.28%, #FF6619 28.56%, #FFD500 42.85%, #80FF00 57.14%, #00FFFF 71.42%, #8000FF 85.71%, #FF00D4 100%) 0% center / 200% auto;
   background-clip: text;
@@ -45,15 +44,14 @@ body {
 /*Title*/
 
 /*Navigation*/
-.about, .what, .where, .causes, .symptoms, .treatment, .risks, .lit  {
+.about, .what, .where, .causes, .symptoms, .treatment, .risks, .lit, .rationale  {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 2.5vh;
   margin-top: 140px;
-  padding-left: 40px;
+  margin-left: 40px;
   display: inline-block;
   cursor: pointer;
 }
-
 a:link {
   text-decoration: none;
 }
@@ -66,37 +64,64 @@ a:hover {
 a:hover, a:active { 
   text-decoration: none; color:#FFD500; 
 }
-/*Navigation*/
+.rectangle {
+  margin-top: 40px;
+  height: 5vh;
+  width: 100%;
+  background-color: #5500FF;
+  }
+  /*Navigation*/
 
-
-
-.aparna, .bener, .ding, .fullard, .garland, .gezmish, .jat, .masoudi, .mcdonnell, .moeness, .mohr, .oke, .pletz {
+/*About*/
+.description {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.title  {
   font-weight: bold;
-  font-size: 15px;
-  padding-top: 40px;
-  padding-left: 40px;
-  padding-bottom: 20px;
+  font-size: 8vh;
+  margin-bottom: 40px;
+}
+.name {
+  font-weight: bold;
+  font-size: 2.5vh;
+  margin-bottom: 40px;
+}
+.columns {
+  columns: 3;
+  font-size: 2.5vh;
+}
+.copy {
+  font-weight: lighter;
+}
+img {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  
+  width: 187.7vh;
+  height: auto;
+  filter: grayscale(100%);
 }
 
-.aparnalit, .benerlit, .dinglit, .fullardlit, .garlandlit, .gezmishlit, .jatlit, .masoudilit, .mcdonnelllit, .moenesslit, .mohrlit, .okelit, .pletzlit {
-  font-weight: light;
-  font-size: 15px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 20px;
+img:hover {
+  filter: none;
 }
-.aparna, .bener, .ding, .fullard, .garland, .gezmish, .jat, .masoudi, .mcdonnell, .moeness, .mohr, .oke, .pletz {
-  columns: 2;
-  column-gap: 40px
+/*About*/
+
+/*GRID*/
+.images {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  font-size: 1.5vh;
+  text-align: left;
+  columns: 3;
+  column-width: 50vh;
 }
-
-.aparnalit, .benerlit, .dinglit, .fullardlit, .garlandlit, .gezmishlit, .jatlit, .masoudilit, .mcdonnelllit, .moenesslit, .mohrlit, .okelit, .pletzlit {
-  columns: 2;
-  column-gap: 40px
-}
-
-
-
 .bn {
   margin-left: 40px;
   margin-right: 40px;
@@ -107,9 +132,4 @@ a:hover, a:active {
   position: flex;
   word-spacing: 5vh;
 }
-
-
-
-
-
-
+/*GRID*/
