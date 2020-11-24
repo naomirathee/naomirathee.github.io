@@ -102,3 +102,7 @@ img:hover {
   word-spacing: 5vh;
 }
 /*GRID*/
+
+
+/*MOBILE*/
+@media (max-width: 500px)
