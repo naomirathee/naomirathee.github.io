@@ -64,7 +64,7 @@ body {
 
 
 /*MOBILE*/
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   body {
   background-color: #5500FF;
   height: 100vh;
