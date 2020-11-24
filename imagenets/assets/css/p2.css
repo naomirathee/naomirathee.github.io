@@ -41,6 +41,12 @@ body {
     transform: scale(1.1);
   }
 }
+.rectangle {
+  margin-top: 40px;
+  height: 10vh;
+  width: 100%;
+  background-color: #5500FF;
+}
 /*Title*/
 
 /*Navigation*/
@@ -68,6 +74,8 @@ a:hover, a:active {
 /*Navigation*/
 
 /*About*/
+
+
 .description {
   margin-left: 40px;
   margin-right: 40px;

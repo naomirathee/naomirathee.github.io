@@ -48,6 +48,12 @@ body {
     transform: scale(1.1);
   }
 }
+.rectangle {
+  margin-top: 40px;
+  height: 10vh;
+  width: 100%;
+  background-color: #FFD500;
+}
 /*Title*/
 
 /*Navigation*/
