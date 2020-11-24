@@ -64,8 +64,6 @@ body {
 @media (max-width: 500px) {
   body {
   background-color: #5500FF;
-  
-  display: flex;
   justify-content: center;
   align-items: center;
 } 
