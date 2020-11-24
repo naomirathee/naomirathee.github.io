@@ -167,90 +167,90 @@ img:hover {
 }
 /*Menu*/
 
-
-.vitd {
+/*Title*/.vitd {
   display: none;
   font-weight: bold;
-  padding: 40px;
+  position: fixed;
+  margin-top: 2px;
+  margin-left: 2px;
+  text-align: left;
 }
 .vitd {
   display: none;
   font-family: helvetica;
   font-weight: bold;
-  font-size: 6vh;
-  position: absolute;
+  font-size: 3vh;
   background: linear-gradient(to right, #FF00D4 0%, #FF002B 14.28%, #FF6619 28.56%, #FFD500 42.85%, #80FF00 57.14%, #00FFFF 71.42%, #8000FF 85.71%, #FF00D4 100%) 0% center / 200% auto;
   background-clip: text;
   -webkit-background-clip: text;
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
   animation: rainbow 4s linear infinite;
-  cursor: pointer;
 }
 @keyframes rainbow {
   to { background-position-x: 200%; }
-}
-
-@-webkit-keyframes pulse-grow-on-hover {
-  to {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-}
-@keyframes pulse-grow-on-hover {
-  to {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
 }
 /*Title*/
 
 /*Navigation*/
 .about, .what, .where, .causes, .symptoms, .treatment, .risks, .lit, .rationale  {
   display: none;
-  font-weight: bold;
-  font-size: 2.5vh;
-  margin-top: 140px;
-  margin-left: 40px;
-  cursor: pointer;
 }
+
 .rectangle {
   display: none;
-  margin-top: 40px;
-  height: 5vh;
+  margin-top: 20px;
+  height: 1.5vh;
   width: 100%;
   background-color: #5500FF;
   }
-  /*Navigation*/
+/*Navigation*/
 
-/*GRID*/
+/*About*/
+.description {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #5500FF;
+}
+.title  {
+  font-weight: bold;
+  font-size: 1.5vh;
+  margin-bottom: 20px;
+}
+.columns {
+  columns: 1;
+  font-size: 1.5vh;
+}
+.copy {
+  font-weight: lighter;
+}
+.disclaimer {
+  font-weight: lighter;
+  font-style: italic;
+}
 img {
-  width: 45vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 92.4%;
   height: auto;
   filter: grayscale(100%);
-  columns: 1;
 }
 img:hover {
   filter: none;
 }
-.images {
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 40px;
-  flex-wrap: wrap;
-  font-size: 1.5vh;
-  text-align: left;
-  columns: 3;
-  column-width: 50vh;
+/*About*/
+
 }
 .bn {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
   text-align: center;
   font-weight: bold;
-  font-size: 2.5vh;
-  margin-bottom: 40px;
-  position: flex;
-  word-spacing: 5vh;
+  font-size: 1.5vh;
+}
 }
 /*MOBILE*/
