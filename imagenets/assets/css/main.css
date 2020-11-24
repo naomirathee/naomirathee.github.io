@@ -64,16 +64,15 @@ body {
 
 
 /*MOBILE*/
-@media (max-width: 400px) (max-height: 550px) {
+@media (max-width: 500px) {
   body {
   background-color: #5500FF;
   display: flex;
   }
 .vitd {
-  margin-top: 5px;
   font-family: helvetica;
   font-weight: bold;
-  font-size: 7vh;
+  font-size: 2vh;
   text-align: center;
   background: linear-gradient(to right, #FF00D4 0%, #FF002B 14.28%, #FF6619 28.56%, #FFD500 42.85%, #80FF00 57.14%, #00FFFF 71.42%, #8000FF 85.71%, #FF00D4 100%) 0% center / 200% auto;
   -webkit-background-clip: text;
@@ -82,10 +81,9 @@ body {
   animation: rainbow 4s linear infinite;
 }
 .def {
-  margin-top: 5px;
   font-family: helvetica;
   font-weight: bold;
-  font-size: 7vh;
+  font-size: 2vh;
   color: #6A4DFF;
   text-align: center;
 }
