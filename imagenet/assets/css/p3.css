@@ -109,7 +109,40 @@ img:hover {
 }
 /*GRID*/
 
-
+/*LAPTOP*/
+@media (max-width: 1600px) {
+img {
+  align-content: : center;
+  width: 43.5vh;
+  height: auto;
+  filter: grayscale(100%);
+}
+img:hover {
+  filter: none;
+}
+.images {
+  align-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  font-size: 1.5vh;
+  text-align: left;
+  columns: 3;
+  column-gap: 6vh;
+}
+.bn {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5vh;
+  margin-bottom: 40px;
+  position: flex;
+  word-spacing: 5vh;
+}
+}
+/*LAPTOP*/
 
 /*MOBILE*/
 @media (max-width: 500px) {
