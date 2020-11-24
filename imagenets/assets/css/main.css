@@ -60,9 +60,6 @@ body {
   animation-direction: alternate;
 }
 
-
-
-
 /*MOBILE*/
 @media (max-width: 500px) {
   body {
@@ -97,5 +94,4 @@ body {
 @keyframes rainbow {
   to { background-position-x: 200%; }
 }
-}
-
+/*MOBILE*/
