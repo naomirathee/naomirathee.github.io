@@ -74,8 +74,6 @@ a:hover, a:active {
 /*Navigation*/
 
 /*About*/
-
-
 .description {
   margin-left: 40px;
   margin-right: 40px;
@@ -97,8 +95,10 @@ a:hover, a:active {
 .disclaimer {
   font-style: italic;
 }
-.eye {
-  width: 10vh;
+.pill {
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 100vh;
   height: auto;
 }
 /*About*/
