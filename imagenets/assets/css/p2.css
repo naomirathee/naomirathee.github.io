@@ -157,34 +157,34 @@ img:hover {
   body {
   background-color: white;
   font-family: helvetica;
-  color: #5500FF;
 }
-
 
 /*Menu*/
 .mobile-container {
-  margin-top: 5px;
   display: block;
+  color: white;
   max-width: 100%;
   margin: auto;
-  background-color: #555;
+  background-color: #5500FF;
   height: 25px;
-  color: white;
+  
   border-radius: 10px;
 }
 .active {
+  margin-top: 5px;
   font-weight: bold;
   color: white;
   font-size: 3vh;
 }
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #5500FF;
   position: relative;
 }
 
 .topnav #myLinks {
   display: none;
+  color: white;
 }
 
 .topnav a {
@@ -196,7 +196,7 @@ img:hover {
 }
 
 .topnav a.icon {
-  background: black;
+  background: #5500FF;
   display: block;
   position: absolute;
   right: 0;
@@ -204,12 +204,12 @@ img:hover {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #5500FF;
+  color: white;
 }
 
 .active {
-  background-color: white;
+  background-color: #5500FF;
   color: white;
 }
 /*Menu*/
@@ -246,25 +246,15 @@ img:hover {
 .about, .what, .where, .causes, .symptoms, .treatment, .risks, .lit, .rationale  {
   display: none;
 }
-a:link {
-  text-decoration: none;
-}
-a:visited { 
-  text-decoration: none; color:#5500FF; 
-}
-a:hover { 
-  text-decoration: none; color:blue; 
-}
-a:hover, a:active { 
-  text-decoration: none; color:#FFD500; 
-}
+
 .rectangle {
+  display: hidden;
   margin-top: 20px;
   height: 1.5vh;
   width: 100%;
   background-color: #5500FF;
   }
-  /*Navigation*/
+/*Navigation*/
 
 /*About*/
 .description {
