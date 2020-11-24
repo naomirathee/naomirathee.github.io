@@ -71,8 +71,8 @@ body {
 .vitd {
   font-family: helvetica;
   font-weight: bold;
-  font-size: 7vh;
-  position: absolute;
+  font-size: 5vh;
+  position: fixed;
   background: linear-gradient(to right, #FF00D4 0%, #FF002B 14.28%, #FF6619 28.56%, #FFD500 42.85%, #80FF00 57.14%, #00FFFF 71.42%, #8000FF 85.71%, #FF00D4 100%) 0% center / 200% auto;
   background-clip: text;
   -webkit-background-clip: text;
@@ -84,9 +84,9 @@ body {
 .def {
   font-family: helvetica;
   font-weight: bold;
-  font-size: 7vh;
+  font-size: 5vh;
   color: #6A4DFF;
-  position: absolute;
+  position: fixed;
   text-align: center;
 }
 @keyframes rainbow {
