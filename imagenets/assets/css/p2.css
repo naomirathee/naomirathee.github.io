@@ -70,41 +70,41 @@ a:hover, a:active {
   width: 100%;
   background-color: #5500FF;
   }
-/*Navigation*/
+  /*Navigation*/
 
 /*About*/
 .description {
-  margin-left: 40px;
-  margin-right: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
-  font-size: 2.5vh;
-  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
 }
-.columns {
-  columns: 3;
-}
-.title {
+.title  {
   font-weight: bold;
   font-size: 8vh;
   margin-bottom: 40px;
+}
+.columns {
+  columns: 3;
+  font-size: 2.5vh;
 }
 .copy {
   font-weight: lighter;
 }
 .disclaimer {
+  font-weight: lighter;
   font-style: italic;
 }
 img {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  
   width: 187.7vh;
   height: auto;
   filter: grayscale(100%);
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  filter: grayscale(100%);
 }
+
 img:hover {
   filter: none;
 }
@@ -115,7 +115,6 @@ img:hover {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 40px;
-  margin-bottom: 40px;
   flex-wrap: wrap;
   font-size: 1.5vh;
   text-align: left;
