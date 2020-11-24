@@ -100,18 +100,6 @@ body {
   to { background-position-x: 200%; }
 }
 
-@-webkit-keyframes pulse-grow-on-hover {
-  to {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-}
-@keyframes pulse-grow-on-hover {
-  to {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-}
 
 .vitd:hover, .vitd:focus, .vitd:active {
   -webkit-animation-name: pulse-grow-on-hover;
