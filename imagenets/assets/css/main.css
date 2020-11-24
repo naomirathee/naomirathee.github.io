@@ -67,10 +67,9 @@ body {
 @media (max-width: 500px) {
   body {
   background-color: #5500FF;
-  height: 0vh;
+  height: top;
   display: flex;
   justify-content: center;
-  align-items: center;
   transition: ease-out .3s;
   }
 .vitd {
