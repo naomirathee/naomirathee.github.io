@@ -234,7 +234,7 @@ img {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
-  width: 92.5%;
+  width: 92.4%;
   height: auto;
   filter: grayscale(100%);
 }
@@ -243,24 +243,14 @@ img:hover {
 }
 /*About*/
 
-/*GRID*/
-.images {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  font-size: 1.5vh;
-  text-align: left;
 }
 .bn {
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 20px;
   text-align: center;
   font-weight: bold;
-  font-size: 2.5vh;
-  margin-bottom: 20px;
-  position: flex;
-  word-spacing: 5vh;
+  font-size: 1.5vh;
 }
 }
 
