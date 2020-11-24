@@ -181,12 +181,10 @@ img:hover {
   background-color: #5500FF;
   position: relative;
 }
-
 .topnav #myLinks {
   display: none;
   color: white;
 }
-
 .topnav a {
   color: white;
   padding: 14px 16px;
@@ -194,7 +192,6 @@ img:hover {
   font-size: 17px;
   display: block;
 }
-
 .topnav a.icon {
   background: #5500FF;
   display: block;
@@ -202,19 +199,15 @@ img:hover {
   right: 0;
   top: 0;
 }
-
 .topnav a:hover {
   background-color: #5500FF;
   color: white;
 }
-
 .active {
   background-color: #5500FF;
   color: white;
 }
 /*Menu*/
-
-
 
 /*Title*/
 .vitd {
