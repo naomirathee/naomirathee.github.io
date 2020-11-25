@@ -113,7 +113,7 @@ img:hover {
 @media (max-width: 1600px) {
 img {
   align-content: : center;
-  width: 43.5vh;
+  width: 40vh;
   height: auto;
   filter: grayscale(100%);
 }
