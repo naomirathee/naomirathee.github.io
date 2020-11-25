@@ -110,10 +110,10 @@ img:hover {
 /*GRID*/
 
 /*LAPTOP*/
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
 img {
   align-content: : center;
-  width: 43.3vh;
+  width: 44vh;
   height: auto;
   filter: grayscale(100%);
 }
