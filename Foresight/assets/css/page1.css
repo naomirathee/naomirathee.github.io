@@ -1,0 +1,153 @@
+body {
+  font-family: helvetica;
+  background-color: white;
+  font-size: 2vh; 
+  color: #0000FF;
+}
+/*Scroll to top*/
+.top {
+  font-weight: bold;
+  bottom: 20px;
+  left: 20px;
+  display:block;
+  position:fixed;
+}
+/*Scroll to top*/
+
+/*Rectangles*/
+.container {
+  display: table;
+  width: 100%;
+}
+.left-half {
+  background-color: #0000FF;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 50%;
+}
+.right-half {
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 50%;
+}
+/*Rectangles*/
+
+/*Left*/
+.heading {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 7vh;
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited { 
+  text-decoration: none; 
+  color: white; 
+}
+a:hover { 
+  text-decoration: none; 
+  color: white; 
+}
+a:hover, a:active { 
+  text-decoration: none; 
+  color:#0000B3; 
+}
+.logo {
+  align-items: center;
+  margin-top: 7%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*Left*/
+
+/*Right*/
+.title {
+  text-align: right;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 8vh;
+  color: #0000FF;
+  display: inline-block; 
+  line-height: 8vh; 
+  margin-top: 50%;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+.lefttitle {
+	text-align: left;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 8vh;
+  color: #0000FF;
+  display: inline-block; 
+  line-height: 8vh; 
+  margin-top: 40%;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  margin-bottom: 5px;
+}
+.righttitle {
+	text-align: right;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 8vh;
+  color: #0000FF;
+  display: inline-block; 
+  line-height: 8vh; 
+  margin-top: 40%;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  margin-bottom: 5px;
+}
+.leftbody {
+  text-align: left;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 2vh;
+  color: #0000FF;
+  display: inline-block; 
+  line-height: 2.5vh; 
+  margin-top: 5%;
+  margin-left: 2vh;
+  margin-right: 15vh;
+}
+
+.rightbody {
+  text-align: right;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 2vh;
+  color: #0000FF;
+  display: inline-block; 
+  line-height: 2.5vh; 
+  margin-top: 5%;
+  margin-left: 15vh;
+  margin-right: 2vh;
+}
+.leftbody2 {
+  text-align: left;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 2vh;
+  color: #0000FF;
+  display: inline-block; 
+  line-height: 2.5vh; 
+  margin-top: 5%;
+  margin-left: 2vh;
+  margin-right: 15vh;
+  margin-bottom: 5%;
+}
+
+/*Right*/
