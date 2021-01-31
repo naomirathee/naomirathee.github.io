@@ -45,12 +45,12 @@ body {
 /*Left*/
 /*Heading*/
 .heading {
+  position: fixed;
+  display: block;
   font-family: dillan;
   font-weight: bolder;
   font-size: 15vh;
   color: #E82627;
-  display: inline-block; 
-  line-height: 13.5vh; 
   margin-top: 30%;
   text-align: center;
 }
@@ -76,7 +76,6 @@ a:hover, a:active {
   text-decoration: none; 
   color:#F7CF0B; 
 }
-/*Contents*/
 /*Left*/
 
 /*Right*/
@@ -91,14 +90,6 @@ a:hover, a:active {
   margin-top: 30%;
   margin-right: 5px;
   margin-bottom: 5px;
-}
-.author {
-  margin-left: 5px;
-  margin-right: 5px;
-  text-align: left;
-  font-weight: bold;
-  font-style: italic;
-  font-size: 2vh;
 }
 .reading {
   text-align: left;
@@ -115,13 +106,5 @@ img {
   width: 50vh;
   height: auto;
   align-items: center;
-}
-.bn {
-  display: inline-block;
-  padding: 5px;
-  margin-right: 5px;
-  text-align: left;
-  font-weight: bold;
-  font-size: 2vh;
 }
 /*Right*/
