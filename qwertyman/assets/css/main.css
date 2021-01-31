@@ -1,0 +1,27 @@
+body {
+  height: 113vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 10vw;
+  line-height: .8;
+  transition: ease-out .3s;
+  background-color: blue;
+  color: white;
+}
+
+span {
+  display: inline-block;
+  transition: ease-out .6s;
+}
+
+.title {
+  color: white;
+  cursor: pointer;
+}
+.copy {
+  color: black;
+  font-weight: lighter;
+}
