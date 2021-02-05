@@ -1,0 +1,66 @@
+body {
+  font-family: helvetica;
+  background-color: black;
+  font-size: 2vh; 
+  color: white;
+}
+/*Rectangles*/
+.container {
+  display: table;
+  width: 100%;
+}
+.left-half {
+  background-color: black;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  bottom: 10px;
+  width: 45%;
+}
+.right-half {
+  background-color: black;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  width: 45%;
+}
+/*Rectangles*/
+
+/*Left*/
+/*Heading & Contents*/
+.dec {
+  color: #FF0000;
+}
+.heading {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 15vh;
+  color: white;
+  display: inline-block; 
+  line-height: 13.5vh; 
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+/*Contents*/
+/*Left*/
+
+/*Right*/
+.reading {
+  text-align: right;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 2vh;
+  line-height: 2.5vh; 
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 50%;
+  margin-bottom: 15px;
+}
+/*Right*/
+
+img {
+  width: 60vh;
+  height: auto;
+}
