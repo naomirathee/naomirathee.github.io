@@ -4,16 +4,6 @@ body {
   font-size: 2vh; 
   color: white;
 }
-/*Scroll to top*/
-.top {
-  font-weight: bold;
-  bottom: 20px;
-  left: 20px;
-  display:block;
-  position:fixed;
-}
-/*Scroll to top*/
-
 /*Rectangles*/
 .container {
   display: table;
@@ -79,49 +69,3 @@ a:hover, a:active {
 }
 /*Contents*/
 /*Left*/
-
-/*Right*/
-.title {
-  text-align: right;
-  font-family: helvetica;
-  font-weight: bold;
-  font-size: 8vh;
-  color: #D4FF00;
-  display: inline-block; 
-  line-height: 8vh; 
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-}
-.author {
-  margin-left: 5px;
-  margin-right: 5px;
-  text-align: left;
-  font-weight: bold;
-  font-style: italic;
-  font-size: 2vh;
-}
-.reading {
-  text-align: left;
-  font-family: helvetica;
-  font-weight: lighter;
-  font-size: 2vh;
-  line-height: 2.5vh; 
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 15px;
-}
-
-img {
-  width: 50vh;
-  height: auto;
-}
-.bn {
-  display: inline-block;
-  padding: 5px;
-  margin-right: 5px;
-  text-align: left;
-  font-weight: bold;
-  font-size: 2vh;
-}
-/*Right*/
