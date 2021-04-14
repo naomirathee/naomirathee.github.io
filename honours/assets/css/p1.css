@@ -95,8 +95,8 @@ a:hover, a:active {
   right: 5px;
 }
 .sub {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: left;
   font-weight: bold;
   font-style: italic;
@@ -109,7 +109,7 @@ a:hover, a:active {
   font-size: 2vh;
   line-height: 2.5vh; 
   margin-left: 20px;
-  margin-right: 5px;
+  margin-right: 20px;
   margin-bottom: 15px;
 }
 img {
